@@ -38,9 +38,9 @@ const menuItems = [
     subItems: null,
   },
   {
-    label: 'Orders',
-    icon: ShoppingBag,
-    href: '/dashboard/orders',
+    label: 'Subscriptions',
+    icon: CreditCard,
+    href: '/dashboard/subscriptions',
     subItems: null,
   },
   {
@@ -76,12 +76,7 @@ const menuItems = [
     href: '/dashboard/settings',
     subItems: null,
   },
-  {
-    label: 'Subscription',
-    icon: CreditCard,
-    href: '/dashboard/subscription',
-    subItems: null,
-  },
+
   {
     label: 'Support',
     icon: SmilePlus,

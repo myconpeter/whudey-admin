@@ -11,17 +11,17 @@ import {
   useMakeAdminMutation,
   useSendBulkEmailMutation,
 } from '@/features/sellers/sellersApi';
-import { SellerFilters } from '@/components/sellers/SellerFilters';
-import { SellersTable } from '@/components/sellers/SellersTable';
+import { SellerFilters } from '@/components/dashboard/sellers/SellerFilters';
+import { SellersTable } from '@/components/dashboard/sellers/SellersTable';
 import { LoadingSpinner } from '@/components/common/LoadingSpinner';
 import { Button } from '@/components/ui/button';
 import { GetSellersParams } from '@/types/seller';
 import { useToast } from '@/hooks/useToast';
 import { ChevronLeft, ChevronRight, Mail } from 'lucide-react';
-import { SuspendSellerModal } from '@/components/sellers/modals/SuspendSellerModal';
-import { DeleteSellerModal } from '@/components/sellers/modals/DeleteSellerModal';
-import { ConfirmModal } from '@/components/sellers/modals/ConfirmModal';
-import { BulkEmailModal } from '@/components/sellers/modals/BulkEmailModal';
+import { SuspendSellerModal } from '@/components/dashboard/sellers/modals/SuspendSellerModal';
+import { DeleteSellerModal } from '@/components/dashboard/sellers/modals/DeleteSellerModal';
+import { ConfirmModal } from '@/components/dashboard/sellers/modals/ConfirmModal';
+import { BulkEmailModal } from '@/components/dashboard/sellers/modals/BulkEmailModal';
 
 export default function SellersPage() {
   const { success, error: showError } = useToast();

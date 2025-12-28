@@ -35,10 +35,10 @@ import {
   Gift,
 } from 'lucide-react';
 import { formatDistanceToNow, format } from 'date-fns';
-import { DeleteSellerModal } from '@/components/sellers/modals/DeleteSellerModal';
-import { SuspendSellerModal } from '@/components/sellers/modals/SuspendSellerModal';
-import { ConfirmModal } from '@/components/sellers/modals/ConfirmModal';
-import { GrantSubscriptionModal } from '@/components/sellers/modals/GrantSubscriptionModal';
+import { DeleteSellerModal } from '@/components/dashboard/sellers/modals/DeleteSellerModal';
+import { SuspendSellerModal } from '@/components/dashboard/sellers/modals/SuspendSellerModal';
+import { ConfirmModal } from '@/components/dashboard/sellers/modals/ConfirmModal';
+import { GrantSubscriptionModal } from '@/components/dashboard/sellers/modals/GrantSubscriptionModal';
 
 export default function SellerDetailsPage() {
   const params = useParams();

@@ -20,6 +20,11 @@ export const baseApi = createApi({
     'RecentActivity',
     'Sellers',
     'SellerDetails',
+    'SubscriptionOverview',
+    'SubscriptionBreakdown',
+    'RevenueForecast',
+    'PaymentIssues',
+    'SubscriptionDetails',
   ],
   endpoints: () => ({}),
 });
