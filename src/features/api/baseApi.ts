@@ -25,6 +25,13 @@ export const baseApi = createApi({
     'RevenueForecast',
     'PaymentIssues',
     'SubscriptionDetails',
+    'UserBehavior',
+    'Engagement',
+    'ConversionFunnel',
+    'FeatureUsage',
+    'TrafficSources',
+    'Geographic',
+    'ProductCategories',
   ],
   endpoints: () => ({}),
 });
